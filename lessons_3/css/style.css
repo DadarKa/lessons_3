@@ -1,0 +1,92 @@
+/* Обнулення СТИЛів */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+/* --------------- */
+
+.container {
+  color: darkorange;
+}
+.container span {
+  color: springgreen;
+}
+.main_title h1 {
+  color: darkgreen;
+}
+#main {
+  color: palevioletred;
+}
+.main_text {
+  color: deeppink;
+}
+.main_paragraph {
+  color: red;
+}
+.examp {
+  color: darkred;
+}
+.examp span {
+  color: deeppink;
+}
+.history {
+  color: darkslategray;
+}
+.history span {
+  color: salmon;
+}
+.content {
+  color: yellow;
+}
+.content li {
+  color: orangered;
+}
+.title {
+  color: green;
+}
+.line li {
+  color: deeppink;
+}
+.legitimate {
+  color: saddlebrown;
+}
+.verse {
+  color: darkcyan;
+}
+.verse span {
+  color: darkred;
+}
+.verse_title {
+  color: blueviolet;
+}
+.verse_name {
+  color: crimson;
+}
+.footer {
+  color: gold;
+}
